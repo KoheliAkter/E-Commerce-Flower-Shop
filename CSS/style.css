@@ -52,7 +52,65 @@ section{
 .btn:hover{
     background: var(--pink);
 }
+/*collction section*/
 
+.collction_images{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    justify-content: space-evenly;
+}
+
+.images_coll img{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+.images_coll{
+  position: relative;
+  text-align: center;
+  
+}
+
+.allbouquets{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+.mixed-flower{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+.summer-collction{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+.glass-vase{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+/*collction section end*/
 header{
     position: fixed;
     top:0;
