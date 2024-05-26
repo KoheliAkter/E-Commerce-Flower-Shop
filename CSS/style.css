@@ -71,6 +71,10 @@ section{
 
 }
 
+.collction .collction_images .images_coll img:hover{
+    transform: scale(1.1);
+}
+
 .images_coll{
   position: relative;
   text-align: center;
