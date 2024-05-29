@@ -572,8 +572,19 @@ header .fa-bars{
     line-height: 1.5;
 }
 
+.left-detl{
+    width: 50%;
+    height: 500px;
+    border: 1px solid red;
+    float: left;
+}
 
-
+.right-detl{
+    width: 50%;
+    height: 500px;
+    border: 1px solid rebeccapurple;
+    float: right;
+}
 
 
 
