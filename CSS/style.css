@@ -743,6 +743,8 @@ header .fa-bars{
     width: 100%;
     height: 55px;
     border: 1px solid red;
+    margin-top: 30px;
+    padding-top: 5px;
 
 }
 
@@ -753,21 +755,21 @@ header .fa-bars{
 }
 
 .detl_wishlist .heading_name{
-    width: 55%;
+    width: 60%;
     float: left;
 }
 
 .detl_wishlist .heading_name2{
-    width: 15%;
+    width: 20%;
     float: left;
 }
 .detl_wishlist .heading_name3{
-    width: 15%;
+    width: 19%;
     float: left;
     padding-top: 0px;
 }
 
-.detl_wishlist .cart-btns{
+/*.detl_wishlist .cart-btns{
     float: left;
 }
  .cart-btns{
@@ -783,7 +785,7 @@ header .fa-bars{
     font-size: 12px;
     font-weight: bold;
 }
-
+*/
 
 
  
