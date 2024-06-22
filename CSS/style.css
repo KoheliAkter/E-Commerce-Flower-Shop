@@ -743,33 +743,34 @@ header .fa-bars{
     width: 100%;
     height: 55px;
     border: 1px solid red;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-top: 5px;
 
 }
 
 .detl_wishlist p{
-    font-size: 12px;
+    font-size: 18px;
     color: #555;
+    font-weight: bold;
     
 }
 
 .detl_wishlist .heading_name{
-    width: 60%;
+    width: 50%;
     float: left;
 }
 
 .detl_wishlist .heading_name2{
-    width: 20%;
+    width: 18%;
     float: left;
 }
 .detl_wishlist .heading_name3{
-    width: 19%;
+    width: 16%;
     float: left;
     padding-top: 0px;
 }
 
-/*.detl_wishlist .cart-btns{
+/*.detl_wishlists .cart-btns{
     float: left;
 }
  .cart-btns{
@@ -787,8 +788,90 @@ header .fa-bars{
 }
 */
 
+.detl_wishlists{
+    width: 100%;
+    height: 150px;
+    border: 1px solid red;
+}
 
+.details-wishlist .image{
+    width: 50%;
+    height: 150px;
+    border: 2px solid blue;
+    float: left;
+}
+.details-wishlist .image img{
+    width: 120px;
+    height: 120px;
+    border: 2px solid blue;
+}
+
+.details-wishlist .price{
+    width: 18%;
+    height: 150px;
+    border: 2px solid green;
+    float: left;
+}
+
+.details-wishlist .stock{
+    width: 16%;
+    height: 150px;
+    border: 2px solid rgb(216, 231, 9);
+    float: left;
+}
+
+.detl_wishlists .cart-btns{
+    float: left;
+}
+ .cart-btns{
+    width: 130px;
+    height: 30px;
+    border: 1px solid #e84393;
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #e84393;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
