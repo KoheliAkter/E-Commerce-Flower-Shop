@@ -763,30 +763,14 @@ header .fa-bars{
 .detl_wishlist .heading_name2{
     width: 18%;
     float: left;
+    text-align: center;
 }
 .detl_wishlist .heading_name3{
     width: 16%;
     float: left;
     padding-top: 0px;
-}
-
-/*.detl_wishlists .cart-btns{
-    float: left;
-}
- .cart-btns{
-    width: 130px;
-    height: 30px;
-    border: 1px solid #e84393;
     text-align: center;
-    padding: 7px 0;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    background-color: #e84393;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
 }
-*/
 
 .detl_wishlists{
     width: 100%;
@@ -809,6 +793,10 @@ header .fa-bars{
 .details-wishlist .price{
     width: 18%;
     height: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e84393;
+    text-align: center;
     border: 2px solid green;
     float: left;
 }
@@ -816,6 +804,10 @@ header .fa-bars{
 .details-wishlist .stock{
     width: 16%;
     height: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
     border: 2px solid rgb(216, 231, 9);
     float: left;
 }
