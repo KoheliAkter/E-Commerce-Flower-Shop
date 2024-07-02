@@ -52,6 +52,8 @@ section{
 .btn:hover{
     background: var(--pink);
 }
+
+
 /*collction section*/
 
 .collction_images{
@@ -159,6 +161,22 @@ header .icons a{
 
 header .icons a:hover{
     color: var(--pink);
+}
+
+header .icons a span{
+    font-size: 9px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--pink);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-weight: 600;
+    right: 160px;
+    top: 15px;
 }
 
 header #toggler{
