@@ -220,6 +220,8 @@ header .fa-bars{
     top: 10px;
     cursor: pointer;
 }
+
+/*home section */
 .home{
     display: flex;
     align-items: center;
