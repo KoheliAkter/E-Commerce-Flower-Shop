@@ -193,6 +193,33 @@ header .fa-bars{
     display: none;
 }
 
+/*cart sidebar menu*/
+
+.sidebar{
+    width: 300px;
+    height: 730px;
+    background-color: #940606;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: -4px 0 6px rgba(0,0,0,.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sidebar .open{
+    right: 0;
+}
+
+.sidebar-close{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
 .home{
     display: flex;
     align-items: center;
