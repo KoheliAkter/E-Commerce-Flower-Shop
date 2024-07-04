@@ -27,7 +27,7 @@
             <a href="#contact">contact</a>
         </nav>
 
-        <div class="icons">
+        <div class="icons" id="cart_btn">
             <a href="wishlist.html" class="fas fa-heart"></a>
             <a href="#" class="fas fa-shopping-cart">
                 <span>0</span>
@@ -187,7 +187,7 @@
 
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">add to cart</a>
+                    <a href="" class="cart-btn">add to cart</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
 
@@ -457,10 +457,11 @@
 </section>
 
 <!--contact section end-->
+
 <!--cart sidebar section start-->
 <section>
     <div class="sidebar" id="sidebar">
-        <div class="sidebar-close">
+        <div class="sidebar-close" id="cross">
             <i class="fa-solid fa-close"></i>
         </div>
             <div class="cart-menu">
@@ -530,4 +531,18 @@
 <!--footer section end-->
 
 </body>
+<script>
+    function my_func(){
+        let sidebar = document.getElementById('sidebar').style.right = 0;
+
+    }
+    let cart_btn = document.getElementById('cart_btn').addEventListener('click',my_func)
+   
+   
+    function my_func_close(){
+        let sidebar = document.getElementById('sidebar').style.right = '-300px';
+
+    }
+    let cross = document.getElementById('cross').addEventListener('click',my_func_close)
+</script>
 </html>
